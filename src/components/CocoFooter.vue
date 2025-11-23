@@ -89,7 +89,7 @@
       </div>
 
     <small class="copyright">
-      © 2016 - 2025 COCOSOLIS | All rights reserved
+      © 2016 - 2025 COCOSOLIS | The site is not mine. This is a version for an exercise purpose only.
     </small>
     </div>
   </footer>
