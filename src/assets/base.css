@@ -1,0 +1,64 @@
+:root {
+  --c-text-main: #1A1A1A;
+  --c-text-light: #555555;
+  --c-gold: #C69C6D;
+  --c-gold-dark: #a67c52;
+  --c-peach: #FDF6F0;
+  --c-sage: #e8ede6;
+  --c-sale: #e53935;
+  --c-rose: #fff0f5;
+  --c-white: #FFFFFF;
+  --z-header: 100;
+  --z-drawer: 1000;
+  --color-bg-secondary: #bfa690;
+  --c-bg-overlay: rgba(0, 0, 0, 0.5);
+  --c-bg: #FAFAFA;
+  --font-body: 'Montserrat', sans-serif;
+  --font-heading: 'Playfair Display', serif;
+  --container-width: 1600px;
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --shadow-float: 0 10px 25px rgba(0, 0, 0, 0.2);
+  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-hover: 0 12px 24px rgba(0, 0, 0, 0.1);
+  --ease: cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--c-text-main);
+  background-color: var(--c-bg);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.btn-add-prominent {
+  margin-top: auto;
+  width: 100%;
+  background: #333;
+  color: var(--c-white);
+  padding: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--c-text-main);
+  cursor: pointer;
+}
+
+.btn-add-prominent:hover {
+  background: var(--c-gold);
+  border-color: var(--c-gold);
+}
+
+.btn-add-prominent:active {
+  transform: scale(0.96);
+}
