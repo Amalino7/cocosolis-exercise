@@ -25,7 +25,7 @@
             </div>
 
             <div class="logo-wrapper">
-                <a href="/" class="logo" aria-label="Начална страница">COCOSOLIS</a>
+                <a href="/" class="logo" aria-label="Начална страница"><img fetchpriority="high" src="https://cocosolis.com//wp-content/themes/cocosolis/public/static/images/cocosolis-logo.svg" alt="COCOSOLIS България" aria-label="Logo"></a>
             </div>
 
             <nav class="desktop-only" role="navigation" aria-label="Вторична навигация">
@@ -153,6 +153,11 @@
     white-space: nowrap;
 }
 
+.logo img{
+    width: 150px;
+    height: auto;
+}
+
 .icon-btn {
     background: transparent;
     border: none;
@@ -226,6 +231,7 @@
     }
 
     .logo-wrapper {
+        height: 100%;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -365,7 +371,7 @@
 
     .header-inner {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         padding: 1rem 0;
     }

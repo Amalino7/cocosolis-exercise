@@ -9,7 +9,9 @@
             <img src="https://images.unsplash.com/photo-1515688594390-b649af70d282?q=80&w=1000&auto=format&fit=crop"
                 alt="Hero" role="presentation">
         </section>
-
+        <smalL role="alert" aria-live="polite" class="promotion-info">
+            * Промоцията е валидна до изчерпване на количествата. <a> Запознай се с пълните условия.</a>
+        </smalL>
 
         <!-- 2. FAVORITE PRODUCTS (Distinct Section Background) -->
         <CocoProducts
@@ -281,6 +283,22 @@ function onShowMore() {
         font-size: 3.5rem;
         line-height: 1.1;
         margin-bottom: 1.5rem;
+    }
+
+    .promotion-info{
+        display: block;
+        text-align: center;
+        font-size: 0.9rem;
+        background-color: var(--c-text-main);
+        color: var(--c-white);
+        padding: 0.75rem 0;
+    }
+    .promotion-info a{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .promotion-info a:hover{
+        color: var(--c-gold);
     }
 
     
